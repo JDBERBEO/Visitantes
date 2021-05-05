@@ -4,7 +4,7 @@ const { Schema, model } = require('mongoose');
 const Visitor = new Schema({
     name : {
         type: String,
-        default: 'Anonimo',
+        default: 'Anónimo',
 },
     createdAt: {
         type: Date,
